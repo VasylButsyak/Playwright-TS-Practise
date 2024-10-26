@@ -11,7 +11,7 @@ test.describe('Sample Test',()=>{
 
  })
 
-    test.only('Test1: Fill all inputs', async({})=>{
+    test('Test1: Fill all inputs', async({})=>{
         await pageObject.fillFirstName('John');
         await pageObject.fillAge('30');
         await pageObject.checkIsStudent();
